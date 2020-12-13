@@ -2,8 +2,8 @@ function CreateDivItemCardapio(nameItem, descItem, tagString, itemID){
     var divItem = document.createElement('div');
     var divCheckbox = document.createElement('div');
     var inputCheckbox = document.createElement('input');
-    var divImg = document.createElement('div');
-    var img = document.createElement('img');
+    /*var divImg = document.createElement('div');
+    var img = document.createElement('img');*/
     var divName = document.createElement('div');
     var pName = document.createElement('p');
     var divDesc = document.createElement('div');
@@ -14,8 +14,8 @@ function CreateDivItemCardapio(nameItem, descItem, tagString, itemID){
     divItem.className = 'cardapioItemDiv';
     divCheckbox.className = 'cardapioPedir';
     inputCheckbox.className = 'checkboxPedir';
-    divImg.className = 'cardapioImg';
-    img.className = 'imgCardapio';
+    /*divImg.className = 'cardapioImg';
+    img.className = 'imgCardapio';*/
     divName.className = 'cardapioName';
     divDesc.className = 'cardapioDescDiv';
     divTags.className = 'cardapioTag';
@@ -23,7 +23,7 @@ function CreateDivItemCardapio(nameItem, descItem, tagString, itemID){
     inputCheckbox.id = itemID;
     inputCheckbox.type = 'checkbox';
 
-    img.src = 'img/meatIcon.png';
+    /*img.src = 'img/meatIcon.png';*/
 
     pName.innerHTML = nameItem;
     pDesc.innerHTML = descItem;
@@ -32,8 +32,8 @@ function CreateDivItemCardapio(nameItem, descItem, tagString, itemID){
     document.getElementById('itemsCardapio').appendChild(divItem);
     divItem.appendChild(divCheckbox);
     divCheckbox.appendChild(inputCheckbox);
-    divItem.appendChild(divImg);
-    divImg.appendChild(img);
+    /*divItem.appendChild(divImg);
+    divImg.appendChild(img);*/
     divItem.appendChild(divName);
     divName.appendChild(pName);
     divItem.appendChild(divDesc);
