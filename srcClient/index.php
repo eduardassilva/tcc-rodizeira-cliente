@@ -130,7 +130,7 @@
 		?-->
 		
 		<script>
-            SetRestaurantInfo('Churrascaria Gado Demais', 'img/bbqLogo.png', '(51) 3387-3733', 'gadodemais@contato.com.br', '90470-340', 'Rio Grande do Sul', 'Porto Alegre', 'Avenida Soledade, Número 374');
+            SetRestaurantInfo('Gado Demais', 'img/bbqLogo.png', '(51) 3387-3733', 'gadodemais@contato.com.br', '90470-340', 'Rio Grande do Sul', 'Porto Alegre', 'Avenida Soledade, Número 374');
             
             CreateDivItemCardapio('Peito de Frango', '', '#Galeto~', 1);
             CreateDivItemCardapio('Coxa de Frango', '', '#Galeto~', 2);
