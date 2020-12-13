@@ -61,7 +61,7 @@
 .tabContent{
 	padding: 0px 12px;
 	animation: fadeEffect 1s;
-	min-height: 700px;
+	min-height: 500px;
 }
 
 /* Go from zero to full opacity */

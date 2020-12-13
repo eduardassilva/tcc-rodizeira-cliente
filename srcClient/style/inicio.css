@@ -1,11 +1,4 @@
-.carousel img{
-    height: 550px;
-    width: 100%;
-}
 
-.carousel-inner{
-    border-radius: 10px;
-}
 
 #navInicio h3{
 	font-weight: bold;
@@ -60,11 +53,3 @@
     color: #454444;
 }
 
-
-
-@media screen and (max-width: 700px){
-    .carousel img{
-        width: 100%;
-        height: auto;
-    }
-}

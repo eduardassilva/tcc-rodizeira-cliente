@@ -38,7 +38,7 @@
 		
 		<div id="container" class="box-shadow">
 			<div id="navInicio" class="tabContent">
-				<!--carousel-->
+				<!--carousel
 				<div id="carousel" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
 					  <div class="carousel-item active">
@@ -60,7 +60,7 @@
 					  <span class="carousel-control-next-icon"></span>
 					</a>
 				</div>
-				<br>
+				<br>-->
 				<!--escolha o rodizio-->
 				<div class="panel-group" id="accordion">
 					<div class="rodizio">Escolha seu Rodízio!</div>
