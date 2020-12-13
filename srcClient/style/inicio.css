@@ -1,0 +1,70 @@
+.carousel img{
+    height: 550px;
+    width: 100%;
+}
+
+.carousel-inner{
+    border-radius: 10px;
+}
+
+#navInicio h3{
+	font-weight: bold;
+}
+
+/*rodizio*/
+
+.rodizio {
+    font-size: 27px;
+	margin: 20px;
+	text-align: center;
+}
+
+.panel-default{
+	margin: 10px;
+}
+
+.tituloRodizio{
+	font-weight: bold;
+}
+
+.pedirRodizio{
+	float: right;
+}
+
+.precoRodizio{
+	font-weight: bold;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+    font-family: 'Glyphicons Halflings';
+	content: '\27A4';
+    float: right;
+    color: #F58723;
+    font-size: 18px;
+	line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+	/* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #454444;
+}
+
+
+
+@media screen and (max-width: 700px){
+    .carousel img{
+        width: 100%;
+        height: auto;
+    }
+}
