@@ -1,6 +1,9 @@
 var rodizioSelected = 0;
 
 function CreateDivRodizio(nameRodizio, priceRodizio, descRodizio, tagString){
+    
+    alert('Create');
+
     var divRodizio = document.createElement('div');
 	var divTitle = document.createElement('div');
     var pName = document.createElement('p');
