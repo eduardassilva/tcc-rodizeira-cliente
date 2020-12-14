@@ -1,9 +1,6 @@
 var rodizioSelected = 0;
 
 function CreateDivRodizio(nameRodizio, priceRodizio, descRodizio, tagString){
-    
-    alert('Create');
-
     var divRodizio = document.createElement('div');
 	var divTitle = document.createElement('div');
     var pName = document.createElement('p');
@@ -23,7 +20,6 @@ function CreateDivRodizio(nameRodizio, priceRodizio, descRodizio, tagString){
     pDesc.className = 'descRodizio';
     btn.className = 'btn btn-success btn-sm btnRodizio';
     
-    //buttonSelect.id = nameRodizio;
     btn.type = 'button';
     btn.onclick = function() { SelectRodizio(tagString); };
 	

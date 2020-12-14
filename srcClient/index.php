@@ -115,7 +115,6 @@
             CreateDivRodizio('Rodízio Clássico', '57.90', 'Sequência inclui TODOS os cortes de frango da casa mais QUATRO cortes suínos [costela suína, salsichão, filé suíno com bacon e costelinha suína com molho barbecue], mais SEIS cortes bovinhos [filé de costela, costela, costelão 12 horas, cupim, maminha e vazio], além de acompanhamentos.', '#Galeto~#Classico~#Acompanhamentos~');
             CreateDivRodizio('Rodízio Completo', '79.90', 'Sequência de Carnes Nobres incluindo TODOS os cortes da casa, entre eles frango , suíno, bovino e cordeiro, além de acompanhamentos.', '#Galeto~#Classico~#Completo~#Acompanhamentos~');
 
-			alert('script1');
             CreateDivItemCardapio('Peito de Frango', '', '#Galeto~', 1);
             CreateDivItemCardapio('Coxa de Frango', '', '#Galeto~', 2);
             CreateDivItemCardapio('Sobrecoxa de Frango', '', '#Galeto~', 3);
@@ -143,7 +142,6 @@
             CreateDivItemCardapio('Queijo Coalho', '', '#Acompanhamentos~', 24);
             CreateDivItemCardapio('Polenta Frita', '', '#Acompanhamentos~', 25);
             CreateDivItemCardapio('Batata Frita', '', '#Acompanhamentos~', 26);
-			alert('script2');
             </script>
     </body>
 </html>

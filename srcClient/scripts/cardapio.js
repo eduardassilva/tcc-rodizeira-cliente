@@ -1,7 +1,4 @@
 function CreateDivItemCardapio(nameItem, descItem, tagString, itemID){
-
-    alert('cardapio1 - ' + nameItem + '//' + descItem + '//' + tagString + '//' + itemID);
-
     var divItem = document.createElement('div');
     var divCheckbox = document.createElement('div');
     var inputCheckbox = document.createElement('input');
@@ -11,21 +8,17 @@ function CreateDivItemCardapio(nameItem, descItem, tagString, itemID){
     var pDesc = document.createElement('p');
     var divTags = document.createElement('div');
     var labelTags = document.createElement('label');
-    alert('cardapio2');
     divItem.className = 'cardapioItemDiv';
     divCheckbox.className = 'cardapioPedir';
     inputCheckbox.className = 'checkboxPedir';
     divName.className = 'cardapioName';
     divDesc.className = 'cardapioDescDiv';
     divTags.className = 'cardapioTag';
-    alert('cardapio3');
     inputCheckbox.id = itemID;
     inputCheckbox.type = 'checkbox';
-    alert('cardapio4');
     pName.innerHTML = nameItem;
     pDesc.innerHTML = descItem;
-    labelTags.innerHTML = tagString.replaceAll('~', '\n');
-    alert('cardapio5');
+    //labelTags.innerHTML = tagString.replaceAll('~', '\n');
     document.getElementById('itemsCardapio').appendChild(divItem);
     divItem.appendChild(divCheckbox);
     divCheckbox.appendChild(inputCheckbox);
@@ -35,7 +28,6 @@ function CreateDivItemCardapio(nameItem, descItem, tagString, itemID){
     divDesc.appendChild(pDesc);
     divItem.appendChild(divTags);
     divTags.appendChild(labelTags);
-    alert('cardapio6');
 }
 
 function PedirCardapio(){
