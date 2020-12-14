@@ -39,6 +39,8 @@
 		<div id="container" class="box-shadow">
 			<div id="navInicio" class="tabContent">
 			
+				<h3>Escolha seu Rodízio:</h3>
+
 				<div id="rodizioDiv"> 
 				</div>
 				
