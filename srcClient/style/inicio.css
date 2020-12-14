@@ -1,55 +1,85 @@
-
-
 #navInicio h3{
 	font-weight: bold;
 }
 
-/*rodizio*/
-
-.rodizio {
-    font-size: 27px;
-	margin: 20px;
-	text-align: center;
+/********************/
+#rodizioDiv{
+    /*border: 1px dotted black;Essa linha é só pra poder ver o tamanho da DIV, pode ser apagada*/
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
-.panel-default{
-	margin: 10px;
+.divRodizio{
+    display:block;
+    border: 0.5px solid var(--black-color);
+    animation: fadeEffect 2s;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgb(212, 206, 206);
+
 }
 
-.tituloRodizio{
-	font-weight: bold;
+.rodizioName{
+    height:6%;
+    display: inline-block;
+    font-size:18px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    
 }
 
-.pedirRodizio{
+.rodizioPreco{
+	border-radius: 5px;
 	float: right;
+	height:5px;
+	margin-right: 10px;
+	padding-top:12px;
+    text-align: center;
+    font-weight: bold;
+    
 }
 
-.precoRodizio{
-	font-weight: bold;
+.divDescRodizio{
+    /*border: 1px dotted black;
+    border-top:0.5px solid #d9d9d9;
+    margin: 10px;*/
+    height: 180px;
+    overflow: auto;
+    padding: 5px 5px;
+}
+.descRodizio{
+    display: block;
+    font-size:13px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 8px;
+    margin-bottom: 0;
+    overflow: auto;
+    word-break: break-word;
+    height: 130px;
+    text-align: justify;
 }
 
-.panel-heading [data-toggle="collapse"]:after {
-    font-family: 'Glyphicons Halflings';
-	content: '\27A4';
+.btnRodizio{
+    margin-top: 0px;
     float: right;
-    color: #F58723;
-    font-size: 18px;
-	line-height: 22px;
-    /* rotate "play" icon from > (right arrow) to down arrow */
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+    margin-right: 18px;
+    font-size: 10px;
 }
 
-.panel-heading [data-toggle="collapse"].collapsed:after {
-	/* rotate "play" icon from > (right arrow) to ^ (up arrow) */
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-    color: #454444;
+.divTitle{
+    display: inline;
 }
 
+.linePedidos{
+    display: inline-block;
+	border-bottom: 0.5px solid #d9d9d9;
+	width:100%;
+}

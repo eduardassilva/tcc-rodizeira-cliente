@@ -1,50 +1,44 @@
 var rodizioSelected = 0;
 
 function CreateDivRodizio(nameRodizio, priceRodizio, descRodizio, tagString){
-    var divPanel = document.createElement('div');
-	var divPanelHeading = document.createElement('div');
-    var hTitle = document.createElement('h4');
-    var aRodName = document.createElement('a');
-    var divPanelCollapse = document.createElement('div');
-    var divPanelBody = document.createElement('div');
-    var pRodDesc = document.createElement('p');
-    var pRodPrice = document.createElement('p');
-    var buttonSelect = document.createElement('button');
+    var divRodizio = document.createElement('div');
+	var divTitle = document.createElement('div');
+    var pName = document.createElement('p');
+    var pPrice = document.createElement('p');
+    var divLine = document.createElement('div');
+    var divDesc = document.createElement('div');
+    var pDesc = document.createElement('p');
+    var btn = document.createElement('button');
+    var breakline = document.createElement('text');
 	
-    divPanel.className = 'panel-default';
-    divPanelHeading.className = 'panel-heading';
-    hTitle.className = 'panel-title';
-    aRodName.className = 'tituloRodizio accordion-toggle collapsed';
-    divPanelCollapse.className = 'panel-collapse collapse';
-    divPanelBody.className = 'panel-body';
-    pRodDesc.className = 'descRodizio';
-    pRodPrice.className = 'precoRodizio';
-    buttonSelect.className = 'pedirRodizio btn btn-success';
-    
-    aRodName.setAttribute('data-toggle', 'collapse');
-    aRodName.setAttribute('data-parent', '#accordion');
-    aRodName.href = '#' + nameRodizio.replace(/\s/g,'');
-    
-    divPanelCollapse.id = nameRodizio.replace(/\s/g,'');
+    divRodizio.className = 'divRodizio';
+    divTitle.className = 'divTitle';
+    pName.className = 'rodizioName';
+    pPrice.className = 'rodizioPreco';
+    divLine.className = 'line';
+    divDesc.className = 'divDescRodizio';
+    pDesc.className = 'descRodizio';
+    btn.className = 'btn btn-success btn-sm btnRodizio';
     
     //buttonSelect.id = nameRodizio;
-    buttonSelect.type = 'button';
-    buttonSelect.onclick = function() { SelectRodizio(tagString); };
+    btn.type = 'button';
+    btn.onclick = function() { SelectRodizio(tagString); };
 	
-	aRodName.innerHTML = nameRodizio;
-    pRodDesc.innerHTML = descRodizio;
-	pRodPrice.innerHTML = 'R$ ' + priceRodizio;
-    buttonSelect.innerHTML = 'Selecionar Rodízio';
+	pName.innerHTML = nameRodizio;
+    pDesc.innerHTML = descRodizio;
+	pPrice.innerHTML = 'R$ ' + priceRodizio;
+    btn.innerHTML = 'Selecionar Rodízio';
+    breakline.innerHTML = '<br>';
 
-	document.getElementById('accordion').appendChild(divPanel);
-    divPanel.appendChild(divPanelHeading);
-    divPanelHeading.appendChild(hTitle);
-    hTitle.appendChild(aRodName);
-    divPanel.appendChild(divPanelCollapse);
-    divPanelCollapse.appendChild(divPanelBody);
-    divPanelBody.appendChild(pRodDesc);
-    divPanelBody.appendChild(pRodPrice);
-    divPanelBody.appendChild(buttonSelect);
+	document.getElementById('rodizioDiv').appendChild(divRodizio);
+    divRodizio.appendChild(divTitle);
+    divTitle.appendChild(pName);
+    divTitle.appendChild(pPrice);
+    divRodizio.appendChild(divLine);
+    divRodizio.appendChild(divDesc);
+    divDesc.appendChild(pDesc);
+    divDesc.appendChild(btn);
+    divRodizio.appendChild(breakline);
 }
 
 function SelectRodizio(tagString){
