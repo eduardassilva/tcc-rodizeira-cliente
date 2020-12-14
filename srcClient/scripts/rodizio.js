@@ -48,7 +48,7 @@ function SelectRodizio(tagString){
    
     for(var i = 0; i < cardapioDivs.length; i++){
         var contains = false;
-        var cardapioTags = cardapioDivs[i].children[3].children[0].innerHTML.split('\n');
+        var cardapioTags = cardapioDivs[i].children[3].children[0].id.split('~');
         
         for(var j = 0; j < (cardapioTags.length-1); j++){
             

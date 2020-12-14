@@ -18,7 +18,7 @@ function CreateDivItemCardapio(nameItem, descItem, tagString, itemID){
     inputCheckbox.type = 'checkbox';
     pName.innerHTML = nameItem;
     pDesc.innerHTML = descItem;
-    //labelTags.innerHTML = tagString.replaceAll('~', '\n');
+    labelTags.id = tagString;
     document.getElementById('itemsCardapio').appendChild(divItem);
     divItem.appendChild(divCheckbox);
     divCheckbox.appendChild(inputCheckbox);
