@@ -38,33 +38,10 @@
 		
 		<div id="container" class="box-shadow">
 			<div id="navInicio" class="tabContent">
-				<!--carousel
-				<div id="carousel" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner">
-					  <div class="carousel-item active">
-						<img src="img/img2.jpg" class="img-fluid">
-					  </div>
-					  
-					  <div class="carousel-item ">
-						<img src="img/img3.jpg" class="img-fluid">
-					  </div>
-		
-					  <div class="carousel-item ">
-						<img src="img/img4.jpg" class="img-fluid">
-					  </div>
-					</div>
-					<a href="#carousel" class="carousel-control-prev" data-slide="prev">
-					  <span class="carousel-control-prev-icon"></span>
-					</a>
-					<a href="#carousel" class="carousel-control-next" data-slide="next">
-					  <span class="carousel-control-next-icon"></span>
-					</a>
+			
+				<div id="rodizioDiv"> 
 				</div>
-				<br>-->
-				<!--escolha o rodizio-->
-				<div class="panel-group" id="accordion">
-					<div class="rodizio">Escolha seu Rodízio!</div>
-				</div>
+				
             </div>
 			
             <div id="navCardapio" class="tabContent">
